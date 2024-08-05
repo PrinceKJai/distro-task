@@ -61,7 +61,6 @@ const FilterPanel: React.FC<FilterPanelProps> = ({
     setFilterOptions({ ...filterOptions, subjectArea: newSubjectAreas });
   };
 
-  //   const uniqueTags = Array.from(new Set(['science', 'math', 'literature', 'history'])); // Replace with actual tags if available
 
   return (
     <Box>
